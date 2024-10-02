@@ -36,3 +36,7 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+#추가
+pom.xml
+persistence.xml
