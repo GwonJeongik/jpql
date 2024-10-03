@@ -6,9 +6,9 @@ import org.example.jpql.section10.Member;
 import java.util.List;
 
 /**
- * 2. JPQL
+ * 2. 기본 문법과 쿼리 API
  * JPQL 기본 문법 : select m from Member m where 1=1 <- 이런식으로 작성
- * 영속성 컨텍스트 flush : EntityManager[영속성 컨텍스트]가 자동으로 플러시 되는 때 <- 커밋 | 쿼리
+ * 영속성 컨텍스트 flush : `영속성 컨텍스트`가 자동으로 `플러시` 되는 때 <- 커밋 | 쿼리
  * TypeQuery : `반환 타입`이 명확할 때 사용한다.
  * Query : `반환 타입`이 명확하지 않을 때 사용한다.
  * em.createQuery(...).getSingleResult() : 반환되는 값이 확실하게 하나만 있을 때 사용한다. <- 0개 혹은 2개 이상이면 예외 발생.
